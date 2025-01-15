@@ -2,9 +2,9 @@
 angka=int(input('masukan angka:'))
 
 #menegecek
-if angka / 4==0:
-    print("kelipatan empat")
+if angka % 4==0:
+    print(angka,"kelipatan empat")
 else:
-    print("bukan kelipatan empat")
+    print(angka,"bukan kelipatan empat")
 
 
